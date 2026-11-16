@@ -1,0 +1,10 @@
+model: mlp
+seeds: [0, 1, 2]
+optimizer: adam
+lr: 0.001
+batch_size: 64
+epochs: 50
+weight_decay: 0.0
+loss: cross_entropy
+augmentation: none
+hidden: [128, 64]

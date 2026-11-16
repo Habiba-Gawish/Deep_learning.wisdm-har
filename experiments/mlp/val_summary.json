@@ -1,0 +1,54 @@
+{
+  "experiment": "mlp",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "val_macro_f1_mean": 0.43468144213590537,
+  "val_macro_f1_std": 0.016338970911642818,
+  "per_seed": [
+    {
+      "experiment": "mlp",
+      "model": "mlp",
+      "seed": 0,
+      "best_epoch": 3,
+      "best_val_macro_f1": 0.4353159388209027,
+      "best_val_acc": 0.448958758677011,
+      "best_val_loss": 2.227713569469382,
+      "train_time_sec": 18.5,
+      "epochs_run": 13,
+      "params": 316754,
+      "model_size_mb": 1.27,
+      "device": "cpu"
+    },
+    {
+      "experiment": "mlp",
+      "model": "mlp",
+      "seed": 1,
+      "best_epoch": 7,
+      "best_val_macro_f1": 0.4506939222332509,
+      "best_val_acc": 0.4567170273581054,
+      "best_val_loss": 2.9765792507123052,
+      "train_time_sec": 22.4,
+      "epochs_run": 17,
+      "params": 316754,
+      "model_size_mb": 1.27,
+      "device": "cpu"
+    },
+    {
+      "experiment": "mlp",
+      "model": "mlp",
+      "seed": 2,
+      "best_epoch": 4,
+      "best_val_macro_f1": 0.41803446535356253,
+      "best_val_acc": 0.4148632094732544,
+      "best_val_loss": 2.4048924102935074,
+      "train_time_sec": 17.1,
+      "epochs_run": 14,
+      "params": 316754,
+      "model_size_mb": 1.27,
+      "device": "cpu"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "experiment": "mlp",
+  "model": "mlp",
+  "seed": 1,
+  "best_epoch": 7,
+  "best_val_macro_f1": 0.4506939222332509,
+  "best_val_acc": 0.4567170273581054,
+  "best_val_loss": 2.9765792507123052,
+  "train_time_sec": 22.4,
+  "epochs_run": 17,
+  "params": 316754,
+  "model_size_mb": 1.27,
+  "device": "cpu"
+}

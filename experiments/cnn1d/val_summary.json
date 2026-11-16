@@ -1,0 +1,54 @@
+{
+  "experiment": "cnn1d",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "val_macro_f1_mean": 0.7140569254247037,
+  "val_macro_f1_std": 0.0039098274716658785,
+  "per_seed": [
+    {
+      "experiment": "cnn1d",
+      "model": "cnn1d",
+      "seed": 0,
+      "best_epoch": 8,
+      "best_val_macro_f1": 0.7184841261303748,
+      "best_val_acc": 0.7123315639036342,
+      "best_val_loss": 1.2633183601699471,
+      "train_time_sec": 242.5,
+      "epochs_run": 18,
+      "params": 214610,
+      "model_size_mb": 0.871,
+      "device": "cpu"
+    },
+    {
+      "experiment": "cnn1d",
+      "model": "cnn1d",
+      "seed": 1,
+      "best_epoch": 10,
+      "best_val_macro_f1": 0.7126092697774253,
+      "best_val_acc": 0.7139648836259698,
+      "best_val_loss": 1.4865715632997774,
+      "train_time_sec": 269.6,
+      "epochs_run": 20,
+      "params": 214610,
+      "model_size_mb": 0.871,
+      "device": "cpu"
+    },
+    {
+      "experiment": "cnn1d",
+      "model": "cnn1d",
+      "seed": 2,
+      "best_epoch": 17,
+      "best_val_macro_f1": 0.7110773803663106,
+      "best_val_acc": 0.708452429563087,
+      "best_val_loss": 1.61406994095032,
+      "train_time_sec": 412.8,
+      "epochs_run": 27,
+      "params": 214610,
+      "model_size_mb": 0.871,
+      "device": "cpu"
+    }
+  ]
+}

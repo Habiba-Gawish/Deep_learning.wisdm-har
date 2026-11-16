@@ -1,0 +1,14 @@
+{
+  "experiment": "cnn1d",
+  "model": "cnn1d",
+  "seed": 1,
+  "best_epoch": 10,
+  "best_val_macro_f1": 0.7126092697774253,
+  "best_val_acc": 0.7139648836259698,
+  "best_val_loss": 1.4865715632997774,
+  "train_time_sec": 269.6,
+  "epochs_run": 20,
+  "params": 214610,
+  "model_size_mb": 0.871,
+  "device": "cpu"
+}
