@@ -55,4 +55,4 @@ TODO
 ## 9. Credits
 - WISDM dataset: TODO (source, version, licence)
 - External code / pretrained models: TODO (cite and describe adaptation)
-"# Deep_learning.wisdm-har" 
+
