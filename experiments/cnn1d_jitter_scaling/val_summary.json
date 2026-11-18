@@ -1,0 +1,54 @@
+{
+  "experiment": "cnn1d_jitter_scaling",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "val_macro_f1_mean": 0.7188619602888823,
+  "val_macro_f1_std": 0.005267690775853364,
+  "per_seed": [
+    {
+      "experiment": "cnn1d_jitter_scaling",
+      "model": "cnn1d",
+      "seed": 0,
+      "best_epoch": 8,
+      "best_val_macro_f1": 0.7130645842541871,
+      "best_val_acc": 0.7074316047366271,
+      "best_val_loss": 1.199255690964303,
+      "train_time_sec": 445.3,
+      "epochs_run": 18,
+      "params": 214610,
+      "model_size_mb": 0.871,
+      "device": "cpu"
+    },
+    {
+      "experiment": "cnn1d_jitter_scaling",
+      "model": "cnn1d",
+      "seed": 1,
+      "best_epoch": 29,
+      "best_val_macro_f1": 0.7233548218991195,
+      "best_val_acc": 0.721927317272356,
+      "best_val_loss": 1.6560946252583637,
+      "train_time_sec": 1934.3,
+      "epochs_run": 39,
+      "params": 214610,
+      "model_size_mb": 0.871,
+      "device": "cpu"
+    },
+    {
+      "experiment": "cnn1d_jitter_scaling",
+      "model": "cnn1d",
+      "seed": 2,
+      "best_epoch": 17,
+      "best_val_macro_f1": 0.7201664747133405,
+      "best_val_acc": 0.7194773376888526,
+      "best_val_loss": 1.4033427733483672,
+      "train_time_sec": 1538.8,
+      "epochs_run": 27,
+      "params": 214610,
+      "model_size_mb": 0.871,
+      "device": "cpu"
+    }
+  ]
+}

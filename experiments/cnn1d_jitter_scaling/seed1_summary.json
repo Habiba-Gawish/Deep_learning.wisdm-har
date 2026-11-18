@@ -1,0 +1,14 @@
+{
+  "experiment": "cnn1d_jitter_scaling",
+  "model": "cnn1d",
+  "seed": 1,
+  "best_epoch": 29,
+  "best_val_macro_f1": 0.7233548218991195,
+  "best_val_acc": 0.721927317272356,
+  "best_val_loss": 1.6560946252583637,
+  "train_time_sec": 1934.3,
+  "epochs_run": 39,
+  "params": 214610,
+  "model_size_mb": 0.871,
+  "device": "cpu"
+}
