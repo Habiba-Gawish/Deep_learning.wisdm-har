@@ -1,0 +1,14 @@
+{
+  "experiment": "transformer",
+  "model": "transformer",
+  "seed": 2,
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.6830444365682742,
+  "best_val_acc": 0.6786443446304614,
+  "best_val_loss": 1.1381909619313664,
+  "train_time_sec": 7102.9,
+  "epochs_run": 15,
+  "params": 114898,
+  "model_size_mb": 0.472,
+  "device": "cpu"
+}
