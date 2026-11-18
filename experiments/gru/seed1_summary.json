@@ -1,0 +1,14 @@
+{
+  "experiment": "gru",
+  "model": "gru",
+  "seed": 1,
+  "best_epoch": 7,
+  "best_val_macro_f1": 0.6886340961060503,
+  "best_val_acc": 0.6859942833809718,
+  "best_val_loss": 1.17774846713793,
+  "train_time_sec": 3637.3,
+  "epochs_run": 17,
+  "params": 106770,
+  "model_size_mb": 0.434,
+  "device": "cpu"
+}

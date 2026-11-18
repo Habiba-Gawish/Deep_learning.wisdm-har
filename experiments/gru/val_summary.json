@@ -1,0 +1,54 @@
+{
+  "experiment": "gru",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "val_macro_f1_mean": 0.6889097397736187,
+  "val_macro_f1_std": 0.013761944046321905,
+  "per_seed": [
+    {
+      "experiment": "gru",
+      "model": "gru",
+      "seed": 0,
+      "best_epoch": 20,
+      "best_val_macro_f1": 0.7028074351300954,
+      "best_val_acc": 0.7019191506737444,
+      "best_val_loss": 1.5799737655159911,
+      "train_time_sec": 6673.9,
+      "epochs_run": 30,
+      "params": 106770,
+      "model_size_mb": 0.434,
+      "device": "cpu"
+    },
+    {
+      "experiment": "gru",
+      "model": "gru",
+      "seed": 1,
+      "best_epoch": 7,
+      "best_val_macro_f1": 0.6886340961060503,
+      "best_val_acc": 0.6859942833809718,
+      "best_val_loss": 1.17774846713793,
+      "train_time_sec": 3637.3,
+      "epochs_run": 17,
+      "params": 106770,
+      "model_size_mb": 0.434,
+      "device": "cpu"
+    },
+    {
+      "experiment": "gru",
+      "model": "gru",
+      "seed": 2,
+      "best_epoch": 4,
+      "best_val_macro_f1": 0.6752876880847105,
+      "best_val_acc": 0.6751735402204981,
+      "best_val_loss": 1.0571866585150902,
+      "train_time_sec": 3027.9,
+      "epochs_run": 14,
+      "params": 106770,
+      "model_size_mb": 0.434,
+      "device": "cpu"
+    }
+  ]
+}
