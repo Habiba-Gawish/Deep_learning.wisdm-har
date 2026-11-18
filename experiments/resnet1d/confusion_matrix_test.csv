@@ -1,0 +1,19 @@
+true\pred,walking,jogging,stairs,sitting,standing,typing,brushing teeth,eating soup,eating chips,eating pasta,drinking from cup,eating sandwich,kicking soccer ball,playing catch w/ tennis ball,dribbling basketball,writing,clapping,folding clothes
+walking,472,0,207,1,0,0,0,0,0,0,0,0,99,0,1,0,0,36
+jogging,23,747,15,0,0,0,1,0,0,0,0,0,15,3,4,0,1,7
+stairs,61,0,450,0,2,0,0,1,0,0,0,16,167,3,0,0,0,14
+sitting,0,0,0,400,82,20,0,40,64,3,84,93,0,0,0,21,0,9
+standing,0,0,0,16,670,0,0,0,6,1,1,14,5,0,0,1,0,0
+typing,0,0,0,53,5,546,0,0,2,0,0,4,0,0,0,206,0,0
+brushing teeth,0,0,0,10,19,13,516,2,32,25,9,82,2,0,0,4,102,0
+eating soup,0,0,0,3,47,0,0,665,71,7,7,13,0,1,0,0,0,2
+eating chips,0,0,1,10,33,6,0,64,412,13,34,131,0,0,0,9,0,1
+eating pasta,0,0,1,9,94,3,1,228,84,342,3,40,0,0,0,6,0,5
+drinking from cup,0,0,0,4,100,0,0,79,79,3,459,82,0,1,0,8,0,1
+eating sandwich,0,0,0,54,87,18,1,94,158,77,106,210,0,0,0,0,0,11
+kicking soccer ball,16,6,111,0,20,0,7,0,1,0,3,0,605,2,2,3,2,38
+playing catch w/ tennis ball,2,0,12,5,0,1,0,12,3,0,3,0,22,637,0,0,0,119
+dribbling basketball,13,13,9,8,1,22,0,2,0,0,0,0,12,14,615,8,22,77
+writing,0,0,1,58,117,88,1,23,17,39,52,12,0,1,0,403,0,4
+clapping,13,0,7,3,12,0,101,0,2,73,1,0,0,0,7,0,519,78
+folding clothes,0,0,0,1,4,0,0,6,7,3,5,23,6,9,6,0,0,746

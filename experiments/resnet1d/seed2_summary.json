@@ -1,0 +1,14 @@
+{
+  "experiment": "resnet1d",
+  "model": "resnet1d",
+  "seed": 2,
+  "best_epoch": 9,
+  "best_val_macro_f1": 0.7293474599637382,
+  "best_val_acc": 0.7264189465087791,
+  "best_val_loss": 1.3355116337195887,
+  "train_time_sec": 590.3,
+  "epochs_run": 19,
+  "params": 244818,
+  "model_size_mb": 1.019,
+  "device": "cpu"
+}

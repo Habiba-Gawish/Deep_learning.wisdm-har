@@ -1,0 +1,54 @@
+{
+  "experiment": "resnet1d",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "val_macro_f1_mean": 0.7332300765559635,
+  "val_macro_f1_std": 0.011648536548924882,
+  "per_seed": [
+    {
+      "experiment": "resnet1d",
+      "model": "resnet1d",
+      "seed": 0,
+      "best_epoch": 30,
+      "best_val_macro_f1": 0.7463240692836366,
+      "best_val_acc": 0.7462229481420988,
+      "best_val_loss": 1.4474367088379627,
+      "train_time_sec": 568.2,
+      "epochs_run": 40,
+      "params": 244818,
+      "model_size_mb": 1.019,
+      "device": "cpu"
+    },
+    {
+      "experiment": "resnet1d",
+      "model": "resnet1d",
+      "seed": 1,
+      "best_epoch": 19,
+      "best_val_macro_f1": 0.7240187004205156,
+      "best_val_acc": 0.71294405879951,
+      "best_val_loss": 1.6226885752103701,
+      "train_time_sec": 688.5,
+      "epochs_run": 29,
+      "params": 244818,
+      "model_size_mb": 1.019,
+      "device": "cpu"
+    },
+    {
+      "experiment": "resnet1d",
+      "model": "resnet1d",
+      "seed": 2,
+      "best_epoch": 9,
+      "best_val_macro_f1": 0.7293474599637382,
+      "best_val_acc": 0.7264189465087791,
+      "best_val_loss": 1.3355116337195887,
+      "train_time_sec": 590.3,
+      "epochs_run": 19,
+      "params": 244818,
+      "model_size_mb": 1.019,
+      "device": "cpu"
+    }
+  ]
+}

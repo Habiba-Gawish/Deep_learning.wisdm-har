@@ -1,0 +1,180 @@
+{
+  "experiment": "resnet1d",
+  "model": "resnet1d",
+  "split": "test",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "test_macro_f1_mean": 0.6518287732029823,
+  "test_macro_f1_std": 0.01336228362969349,
+  "test_accuracy_mean": 0.6545682102628286,
+  "test_accuracy_std": 0.015832551446930236,
+  "test_weighted_f1_mean": 0.6532601950215979,
+  "test_weighted_f1_std": 0.013448193943328659,
+  "cost": {
+    "params": 244818,
+    "model_size_mb": 1.019,
+    "inference_ms_per_window": 2.234,
+    "hardware": "cpu",
+    "train_time_sec_mean": 615.7
+  },
+  "per_class": {
+    "walking": {
+      "precision_mean": 0.7921363902079538,
+      "recall_mean": 0.5784313725490197,
+      "f1_mean": 0.66675141199722,
+      "f1_std": 0.01170938000201868,
+      "support": 272
+    },
+    "jogging": {
+      "precision_mean": 0.975152685408535,
+      "recall_mean": 0.9154411764705883,
+      "f1_mean": 0.9437433438030537,
+      "f1_std": 0.031584153250693026,
+      "support": 272
+    },
+    "stairs": {
+      "precision_mean": 0.5556375709425131,
+      "recall_mean": 0.6302521008403361,
+      "f1_mean": 0.5847280900155051,
+      "f1_std": 0.07159560187468908,
+      "support": 238
+    },
+    "sitting": {
+      "precision_mean": 0.6499379083946748,
+      "recall_mean": 0.4901960784313726,
+      "f1_mean": 0.5516222867481634,
+      "f1_std": 0.04066341020895898,
+      "support": 272
+    },
+    "standing": {
+      "precision_mean": 0.5203837645855339,
+      "recall_mean": 0.9383753501400559,
+      "f1_mean": 0.6689767036698585,
+      "f1_std": 0.04772935973790117,
+      "support": 238
+    },
+    "typing": {
+      "precision_mean": 0.7611769531589879,
+      "recall_mean": 0.6691176470588235,
+      "f1_mean": 0.7110229508594653,
+      "f1_std": 0.04358875281126208,
+      "support": 272
+    },
+    "brushing teeth": {
+      "precision_mean": 0.8553649277692994,
+      "recall_mean": 0.6323529411764706,
+      "f1_mean": 0.7121512153146599,
+      "f1_std": 0.027879080348387375,
+      "support": 272
+    },
+    "eating soup": {
+      "precision_mean": 0.5472805637371391,
+      "recall_mean": 0.8149509803921569,
+      "f1_mean": 0.6536416331949829,
+      "f1_std": 0.026575411699102477,
+      "support": 272
+    },
+    "eating chips": {
+      "precision_mean": 0.4440948918529732,
+      "recall_mean": 0.57703081232493,
+      "f1_mean": 0.49995104949874686,
+      "f1_std": 0.02839268662576123,
+      "support": 238
+    },
+    "eating pasta": {
+      "precision_mean": 0.5848841449004732,
+      "recall_mean": 0.41911764705882354,
+      "f1_mean": 0.48291254573774983,
+      "f1_std": 0.088356474072225,
+      "support": 272
+    },
+    "drinking from cup": {
+      "precision_mean": 0.6010937226823447,
+      "recall_mean": 0.5625,
+      "f1_mean": 0.5793836633143962,
+      "f1_std": 0.04307063094735341,
+      "support": 272
+    },
+    "eating sandwich": {
+      "precision_mean": 0.3152427808434723,
+      "recall_mean": 0.25735294117647056,
+      "f1_mean": 0.27654171367260744,
+      "f1_std": 0.024851563445833166,
+      "support": 272
+    },
+    "kicking soccer ball": {
+      "precision_mean": 0.6769909731087832,
+      "recall_mean": 0.7414215686274509,
+      "f1_mean": 0.6977120536701499,
+      "f1_std": 0.06003571417176527,
+      "support": 272
+    },
+    "playing catch w/ tennis ball": {
+      "precision_mean": 0.949582705660312,
+      "recall_mean": 0.7806372549019608,
+      "f1_mean": 0.855570356836656,
+      "f1_std": 0.041811486404509074,
+      "support": 272
+    },
+    "dribbling basketball": {
+      "precision_mean": 0.9686458889499843,
+      "recall_mean": 0.7536764705882352,
+      "f1_mean": 0.8466971412300169,
+      "f1_std": 0.04112373898014023,
+      "support": 272
+    },
+    "writing": {
+      "precision_mean": 0.6037584778840875,
+      "recall_mean": 0.4938725490196078,
+      "f1_mean": 0.542202039295186,
+      "f1_std": 0.01773160735053034,
+      "support": 272
+    },
+    "clapping": {
+      "precision_mean": 0.8108733371891267,
+      "recall_mean": 0.636029411764706,
+      "f1_mean": 0.6979974958639485,
+      "f1_std": 0.12188193052685682,
+      "support": 272
+    },
+    "folding clothes": {
+      "precision_mean": 0.6538614215055064,
+      "recall_mean": 0.9142156862745098,
+      "f1_mean": 0.7613122229313117,
+      "f1_std": 0.0472048541670282,
+      "support": 272
+    }
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "test_macro_f1": 0.666846924264624,
+      "test_accuracy": 0.671255736337088,
+      "test_weighted_f1": 0.6683365918522113,
+      "val_macro_f1_at_checkpoint": 0.7463240692836366,
+      "best_epoch": 30,
+      "train_time_sec": 568.2
+    },
+    {
+      "seed": 1,
+      "test_macro_f1": 0.6412550642817448,
+      "test_accuracy": 0.6397580308719233,
+      "test_weighted_f1": 0.6425001005353749,
+      "val_macro_f1_at_checkpoint": 0.7240187004205156,
+      "best_epoch": 19,
+      "train_time_sec": 688.5
+    },
+    {
+      "seed": 2,
+      "test_macro_f1": 0.6473843310625779,
+      "test_accuracy": 0.6526908635794744,
+      "test_weighted_f1": 0.6489438926772079,
+      "val_macro_f1_at_checkpoint": 0.7293474599637382,
+      "best_epoch": 9,
+      "train_time_sec": 590.3
+    }
+  ]
+}
