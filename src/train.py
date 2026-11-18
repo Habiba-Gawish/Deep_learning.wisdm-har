@@ -45,6 +45,7 @@ MODEL_REGISTRY = {
     "cnn1d": ("models.cnn1d", "CNN1D", []),
     "transformer": ("models.transformer", "TransformerClassifier", ["d_model", "n_heads", "n_layers"]),
     "resnet1d": ("models.resnet1d", "ResNet1D", []),
+    "gru": ("models.gru", "GRUClassifier", ["hidden_size", "num_layers"]),
 }
 
 

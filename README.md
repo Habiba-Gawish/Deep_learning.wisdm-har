@@ -17,6 +17,7 @@ Best result: TODO (model, macro-F1 mean ± SD over 3 seeds)
 | Classic | 1D-CNN | `src/models/cnn1d.py` |
 | Modern | Transformer | `src/models/transformer.py` |
 | Advanced | ResNet1D (Residual Block written by us) | `src/models/resnet1d.py` |
+| Classic (recurrent) | Bidirectional GRU | `src/models/gru.py` |
 
 ## 3. Environment setup (Command Prompt)
 ```cmd
@@ -37,6 +38,7 @@ python src\train.py --config configs\mlp.yaml
 python src\train.py --config configs\cnn1d.yaml
 python src\train.py --config configs\transformer.yaml
 python src\train.py --config configs\resnet1d.yaml
+python src\train.py --config configs\gru.yaml
 ```
 
 ## 6. Evaluation
