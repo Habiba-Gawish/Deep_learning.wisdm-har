@@ -1,0 +1,25 @@
+{
+  "baseline_process_mb": 195.0,
+  "models": {
+    "mlp": {
+      "inference_extra_mb": 99.8,
+      "train_step_extra_mb": 170.8
+    },
+    "cnn1d": {
+      "inference_extra_mb": 100.9,
+      "train_step_extra_mb": 207.2
+    },
+    "gru": {
+      "inference_extra_mb": 101.4,
+      "train_step_extra_mb": 315.9
+    },
+    "transformer": {
+      "inference_extra_mb": 104.0,
+      "train_step_extra_mb": 603.2
+    },
+    "resnet1d": {
+      "inference_extra_mb": 100.7,
+      "train_step_extra_mb": 195.8
+    }
+  }
+}
